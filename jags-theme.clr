@@ -1,0 +1,117 @@
+[DISASM]
+050B29	 //
+91FDD8	 //Default color
+FF3A67	 //Regular comment
+B8FFE6	 //Repeatable comment
+F2AA3C	 //Automatic comment
+F2AA3C	 //Instruction
+69C3F9	 //Dummy Data Name
+97B3C0	 //Regular Data Name
+69C3F9	 //Demangled Name
+69C3F9	 //Punctuation
+8B1DF2	 //Char constant in instruction
+50FA7B	 //String constant in instruction
+______	 //Numeric constant in instruction
+FF3A67	 //Void operand
+69C3F9	 //Code reference
+891DEF	 //Data reference
+FFB441	 //Code reference to tail byte
+FAD949	 //Data reference to tail byte
+E0335A	 //Error or problem
+F8F8F2	 //Line prefix
+______	 //Binary line prefix bytes
+942FD3	 //Extra line
+FF3A67	 //Alternative operand
+FFD500	 //Hidden name
+8BE9FD	 //Library function name
+E4335A	 //Local variable name
+FFD500	 //Dummy code name
+F1C900	 //Assembler directive
+891DEF	 //Macro
+F8D849	 //String constant in data directive
+FFB86C	 //Char constant in data directive
+69C3F9	 //Numeric constant in data directive
+E4335A	 //Keywords
+FF3A67	 //Register name
+CA2EC4	 //Imported name
+E4335A	 //Segment name
+69C3F9	 //Dummy unknown name
+69C5FF	 //Regular code name
+CA2EC4	 //Regular unknown name
+69C3F9	 //Collapsed line
+______	 //Max color number
+FBDB4A	 //Line prefix: library function
+F3AC42	 //Line prefix: regular function
+8348FF	 //Line prefix: instruction
+8D1DF5	 //Line prefix: data
+F23523	 //Line prefix: unexplored
+CA2EC4	 //Line prefix: externs
+ffb86c	 //Line prefix: current item
+E4335A	 //Line prefix: current line
+69C3F9	 //Punctuation
+69C5FF	 //Opcode bytes
+B8FFE6	 //Manual operand
+E0335A	 //Error
+[NAVBAR]
+8BE9FD	 //Library function
+F8D849	 //Regular function
+FAD949	 //Instruction
+FFB86C	 //Data item
+F23523	 //Unexplored
+CA2EC4	 //External symbol
+E0335A	 //Errors
+______	 //Gaps
+______	 //Cursor
+______	 //Address
+______	 //Lumina function
+[DEBUG]
+______	 //Current IP
+______	 //Current IP (+ enabled breakpoint)
+______	 //Current IP (+ disabled breakpoint)
+050B29	 //Default background
+______	 //Address (+ enabled breakpoint)
+______	 //Address (+ disabled breakpoint)
+______	 //Current IP (+ unavailable breakpoint)
+______	 //Address (+ unavailable breakpoint)
+______	 //Registers
+______	 //Registers (changed)
+______	 //Registers (edited)
+______	 //Registers (unavailable)
+[ARROW]
+______	 //Jump in current function
+______	 //Jump external to function
+______	 //Jump under the cursor
+______	 //Jump target
+______	 //Register target
+[GRAPH]
+618FB0	 //Top color
+39566B	 //Bottom color
+69C5FF	 //Normal title
+8C1DF4	 //Selected title
+E4335A	 //Current title
+FAD949	 //Group frame
+050B28	 //Node shadow
+92FFDA	 //Highlight color 1
+B42D56	 //Highlight color 2
+E4335A	 //Foreign node
+69C5FF	 //Normal edge
+92FFDA	 //Yes edge
+E4335A	 //No edge
+FAD949	 //Highlighted edge
+8C1DF4	 //Current edge
+[MISC]
+69C5FF	 //Message text
+050B29	 //Message background
+E4335A	 //Patched bytes
+F3AC42	 //Unsaved changes
+[OTHER]
+0A0F19	 //Highlight color
+91FDD8	 //Hint color
+[SYNTAX]
+E4335A	0	0	 //Keyword 1
+FF3A67	0	0	 //Keyword 2
+E67402	0	0	 //Keyword 3
+69C3F9	0	0	 //String
+80E2C3	0	1	 //Comment
+EA3323	1	0	 //Preprocessor
+BE3BC2	1	0	 //Number
