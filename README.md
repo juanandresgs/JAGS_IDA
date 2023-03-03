@@ -13,5 +13,5 @@ Fixes, improvements, etc, welcome. :)
 - ~~Consistent background for the top bar~~ FIXED
 - Can't fix hover over drag menu
 - Can't change color of console
-	|_ This may be an IDA 8.2 error (the color resets when applied).
+	- This may be an IDA 8.2 error (the color resets when applied).
 - Can't change color of navbar or it breaks the whole thing
