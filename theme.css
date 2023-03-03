@@ -40,10 +40,8 @@ CustomIDAMemo
     qproperty-line-pfx-extern: #CA2EC4;
     qproperty-line-fg-patched-bytes: #E4335A;
     qproperty-line-fg-unsaved-changes: #F3AC42;
-    qproperty-graph-bg-top: #050B29;
-    qproperty-graph-bg-bottom: #0A0F19;
-    qproperty-graph-bg-top: #5096C5;
-    qproperty-graph-bg-bottom: #2F4C88;
+    qproperty-graph-bg-top: #618FB0;
+    qproperty-graph-bg-bottom: #39566B;
     qproperty-graph-node-title-normal: #69C5FF;
     qproperty-graph-node-title-selected: #8C1DF4;
     qproperty-graph-node-title-current: #E4335A;
@@ -69,9 +67,6 @@ CustomIDAMemo
     qproperty-line-fg-register-name: #E4335A;
     qproperty-line-pfx-libfunc: #8BE9FD;
     qproperty-line-pfx-current-line: #FFB86C;
-    qproperty-graph-bg-top: #618FB0;
-    qproperty-graph-bg-bottom: #39566B;
-
 }
 
 /* search filter */
@@ -240,7 +235,7 @@ QTableCornerButton::section
 /* QLineEdit*/
 QLineEdit
 {
-    border: 1px transparent; #FAD949;
+    border: 1px transparent #FAD949;
     min-height: 20px;
     border-radius: 2px;
 }
@@ -255,8 +250,8 @@ QLineEdit:focus
 QScrollBar
 {
     background-color: #39566B;
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     margin: 0 0 0 0;
 }
 
