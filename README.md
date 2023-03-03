@@ -9,8 +9,8 @@ Fixes, improvements, etc, welcome. :)
 
 
 ### Things I haven't figured out how to fix (help very much welcome!)
-~~Buggy graph background colors~~ FIXED
-~~Consistent background for the top bar~~ FIXED
+- ~~Buggy graph background colors~~ FIXED
+- ~~Consistent background for the top bar~~ FIXED
 - Can't fix hover over drag menu
 - Can't change color of console
 	|_ This may be an IDA 8.2 error (the color resets when applied).

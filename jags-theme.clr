@@ -78,11 +78,11 @@ ______	 //Registers (changed)
 ______	 //Registers (edited)
 ______	 //Registers (unavailable)
 [ARROW]
-______	 //Jump in current function
-______	 //Jump external to function
-______	 //Jump under the cursor
-______	 //Jump target
-______	 //Register target
+92FFDA	 //Jump in current function
+69C5FF	 //Jump external to function
+F3AC42	 //Jump under the cursor
+92FFDA	 //Jump target
+8C1DF4	 //Register target
 [GRAPH]
 618FB0	 //Top color
 39566B	 //Bottom color
