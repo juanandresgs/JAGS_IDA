@@ -2,6 +2,21 @@
 
 CustomIDAMemo
 {
+    qproperty-line-bg-default: #050B29;
+    qproperty-line-fg-patched-bytes: #E4335A;
+    qproperty-graph-bg-top: #618FB0;
+    qproperty-graph-bg-bottom: #39566B;
+    qproperty-graph-node-frame-group: #FAD949;
+    qproperty-graph-node-shadow: #050B28;
+    qproperty-graph-node-high1: #6CBEA4;
+    qproperty-graph-node-high2: #E4335A;
+    qproperty-graph-node-foreign: #E4335A;
+    qproperty-graph-edge-normal: #69C5FF;
+    qproperty-graph-edge-yes: #92FFDA;
+    qproperty-graph-edge-no: #E4335A;
+    qproperty-graph-edge-high: #FAD949;
+    qproperty-graph-edge-current: #8C1DF4;
+    qproperty-bookmark-star-outline: #F8D849;
     qproperty-line-fg-code-name: #69C5FF;
     qproperty-line-fg-default: #91FDD8;
     qproperty-line-fg-regular-comment: #FF3A67;
@@ -32,30 +47,15 @@ CustomIDAMemo
     qproperty-line-fg-dummy-unknown-name: #69C3F9;
     qproperty-line-fg-unknown-name: #CA2EC4;
     qproperty-line-fg-collapsed-line: #69C3F9;
-    qproperty-line-bg-default: #050B29;
     qproperty-line-pfx-func: #F3AC42;
     qproperty-line-pfx-insn: #8147FF;
     qproperty-line-pfx-data: #891DEF;
     qproperty-line-pfx-unexplored: #EA3323;
     qproperty-line-pfx-extern: #CA2EC4;
-    qproperty-line-fg-patched-bytes: #E4335A;
     qproperty-line-fg-unsaved-changes: #F3AC42;
-    qproperty-graph-bg-top: #618FB0;
-    qproperty-graph-bg-bottom: #39566B;
     qproperty-graph-node-title-normal: #69C5FF;
     qproperty-graph-node-title-selected: #8C1DF4;
     qproperty-graph-node-title-current: #E4335A;
-    qproperty-graph-node-frame-group: #FAD949;
-    qproperty-graph-node-shadow: #050B28;
-    qproperty-graph-node-high1: #6CBEA4;
-    qproperty-graph-node-high2: #E4335A;
-    qproperty-graph-node-foreign: #E4335A;
-    qproperty-graph-edge-normal: #69C5FF;
-    qproperty-graph-edge-yes: #92FFDA;
-    qproperty-graph-edge-no: #E4335A;
-    qproperty-graph-edge-high: #FAD949;
-    qproperty-graph-edge-current: #8C1DF4;
-    qproperty-bookmark-star-outline: #F8D849;
     qproperty-line-fg-strlit-in-insn: #50FA7B;
     qproperty-line-fg-line-prefix: #F8F8F2;
     qproperty-line-fg-hidden: #FFD500;
@@ -148,7 +148,7 @@ QTabBar::tab
 
 QTabBar::tab:selected
 {
-    background-color: #8C1DF4;
+    background-color: #14223F;
     border-radius: 3px;
     color: #FAD949;
 }
@@ -156,7 +156,7 @@ QTabBar::tab:selected
 QTableView
 {
     border: 1px solid #474747;
-    background-color: #39566B;
+    background-color: #050B29;
     border-radius: 3px;
 }
 
@@ -201,7 +201,7 @@ QTreeView::item:selected,
 QListView::item:selected,
 QTableView::item:selected
 {
-    background-color: #8C1DF4;
+    background-color: #242284;
     color: #FAD949;
 }
 
@@ -249,7 +249,6 @@ QLineEdit:focus
 /* SCROLLBAR */
 QScrollBar
 {
-    background-color: #39566B;
     width: 10px;
     height: 10px;
     margin: 0 0 0 0;
@@ -433,4 +432,19 @@ QTableView::item:selected
 {
     background-color: #8C1DF4;
     color: #FAD949;
+}
+
+CustomIDAMemo[os-dark-theme="true"]
+{
+    qproperty-line-bg-selected: #E1AD32;
+}
+
+CustomIDAMemo[os-dark-theme="true"][debugging="true"]
+{
+    qproperty-line-bg-selected: #E1AD32;
+}
+
+CustomIDAMemo[os-dark-theme="true"][hints="true"]
+{
+    qproperty-line-bg-selected: #E1AD32;
 }

@@ -11,7 +11,6 @@ F2AA3C	 //Instruction
 69C3F9	 //Punctuation
 8B1DF2	 //Char constant in instruction
 50FA7B	 //String constant in instruction
-______	 //Numeric constant in instruction
 FF3A67	 //Void operand
 69C3F9	 //Code reference
 891DEF	 //Data reference
@@ -19,7 +18,6 @@ FFB441	 //Code reference to tail byte
 FAD949	 //Data reference to tail byte
 E0335A	 //Error or problem
 F8F8F2	 //Line prefix
-______	 //Binary line prefix bytes
 942FD3	 //Extra line
 FF3A67	 //Alternative operand
 FFD500	 //Hidden name
@@ -39,7 +37,6 @@ E4335A	 //Segment name
 69C5FF	 //Regular code name
 CA2EC4	 //Regular unknown name
 69C3F9	 //Collapsed line
-______	 //Max color number
 FBDB4A	 //Line prefix: library function
 F3AC42	 //Line prefix: regular function
 8348FF	 //Line prefix: instruction
@@ -60,23 +57,8 @@ FFB86C	 //Data item
 F23523	 //Unexplored
 CA2EC4	 //External symbol
 E0335A	 //Errors
-______	 //Gaps
-______	 //Cursor
-______	 //Address
-______	 //Lumina function
 [DEBUG]
-______	 //Current IP
-______	 //Current IP (+ enabled breakpoint)
-______	 //Current IP (+ disabled breakpoint)
 050B29	 //Default background
-______	 //Address (+ enabled breakpoint)
-______	 //Address (+ disabled breakpoint)
-______	 //Current IP (+ unavailable breakpoint)
-______	 //Address (+ unavailable breakpoint)
-______	 //Registers
-______	 //Registers (changed)
-______	 //Registers (edited)
-______	 //Registers (unavailable)
 [ARROW]
 92FFDA	 //Jump in current function
 69C5FF	 //Jump external to function
